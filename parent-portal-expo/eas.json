@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "node": "22.x",
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "http://10.0.2.2:3000"
+      }
+    },
+    "preview": {
+      "node": "22.x",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://ais-pre-iz5upbjnxtv5oy6v7yx56r-94159906121.europe-west2.run.app"
+      }
+    },
+    "production": {
+      "node": "22.x",
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://ais-pre-iz5upbjnxtv5oy6v7yx56r-94159906121.europe-west2.run.app"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

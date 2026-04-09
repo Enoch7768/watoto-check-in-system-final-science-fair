@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <path id="top-curve" d="M 20 100 A 80 80 0 0 1 180 100" fill="none" />
+  <text fill="#1E3A8A" font-size="16" font-weight="900" letter-spacing="2" font-family="Arial">
+    <textPath href="#top-curve" startOffset="50%" text-anchor="middle">WATOTO CHRISTIAN</textPath>
+  </text>
+  <path id="bottom-curve" d="M 180 100 A 80 80 0 0 1 20 100" fill="none" />
+  <text fill="#1E3A8A" font-size="16" font-weight="900" letter-spacing="2" font-family="Arial">
+    <textPath href="#bottom-curve" startOffset="50%" text-anchor="middle">INTERNATIONAL SCHOOL</textPath>
+  </text>
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#1E3A8A" stroke-width="3" stroke-dasharray="100 40 100 40" stroke-dashoffset="70" />
+  <path d="M 45 140 C 60 100, 70 70, 85 55 C 90 80, 95 100, 100 120 C 115 80, 135 60, 160 45 C 140 80, 120 110, 110 140 C 100 110, 90 80, 80 110 C 70 140, 60 150, 45 140 Z" fill="#1E3A8A" />
+</svg>

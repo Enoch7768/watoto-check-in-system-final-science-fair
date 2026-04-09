@@ -1,0 +1,5 @@
+{
+  "name": "Watoto Check-in System",
+  "description": "Student attendance system with biometric simulation, admin dashboard, and real-time analytics.",
+  "requestFramePermissions": []
+}

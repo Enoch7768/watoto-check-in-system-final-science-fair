@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Parent Portal",
+    "slug": "parent-portal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.parentportal"
+    },
+    "android": {
+      "package": "com.yourname.parentportal"
+    }
+  }
+}
