@@ -235,7 +235,7 @@ export default function Terminal() {
               Biometric Scanner
             </h2>
             <p className="text-slate-600 dark:text-zinc-400 mt-2 max-w-xs mx-auto">
-              Place your finger on the scanner. The system is continuously listening for hardware on localhost:9999.
+              Place your finger on the scanner. The system is continuously listening for hardware waiting for your fingerprint on the scanner.
             </p>
           </div>
         </div>

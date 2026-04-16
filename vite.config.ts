@@ -16,9 +16,12 @@ export default defineConfig(({mode}) => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
-      hmr: false,
-    },
+  allowedHosts: true, // Allow all hosts to access the dev server
+    host: true, // This tells Vite to listen on all local IPs
+  hmr: {
+    clientPort: 443, // Important for tunnels to avoid HMR disconnects
+  },
+},
+
   };
 });
